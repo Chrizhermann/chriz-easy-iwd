@@ -161,7 +161,7 @@ redistribute mods.
 | Will of the Wisps | Lava | 3.6 | optional |
 | Below & Below Inn | Lava | 3.1 | optional |
 | Night of the Blinking Dead | Lava | 3.1 | optional |
-| Snowytoes Hamlet | Lava | 1.6 | optional |
+| Snowytoes Hamlet | Lava | 1.7 | optional |
 | Tale of Our Lady Dreamless | Lava | 2.7 | optional |
 | Terror of the Skineater | Lava | 2.6 | optional |
 | The Rediscovery of Kuldahar | Lava | 2.6.1 | optional |
