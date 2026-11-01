@@ -155,7 +155,7 @@ redistribute mods.
 | Sword Coast Stratagems | DavidW | 35.21 | yes |
 | Chriz IWD Encounters | ChrizFader | 0.1.0 | yes |
 | Hidden Gameplay Options | argent77 | 5.2 | yes |
-| BuffBot | ChrizFader | 1.12.0 | yes |
+| BuffBot | ChrizFader | 1.12.6 | yes |
 | Lefreut's Enhanced UI for IWD:EE | lefreut; IWD:EE port by r-e-d | 2.0 | optional |
 | Infinity UI++ | Pecca | 1.31 | optional |
 | Will of the Wisps | Lava | 3.6 | optional |
