@@ -96,9 +96,15 @@ This describes the recommended setup. Optional choices are listed separately bel
   a short changelog that says what it changes and what reaches a game already in progress.
   Hotpatches are offered only to installations that stay close to the recommended setup; mods
   and files you add after installing, such as voice packs, do not count against that.
+- **BuffBot updates.** **Updates → BuffBot** brings BuffBot in an existing game to its newest
+  release. Your saves, BuffBot settings, exported presets and the mods you added stay as they
+  are, and **Undo** puts the game files back.
+- **App updates.** From 0.1.7 on, Chriz Easy IWD updates itself: open **Updates** and choose
+  **Update Chriz Easy IWD app**. An app update never changes your installations; a hotpatch
+  is applied only when you choose it.
 - **Manual mods (advanced).** Pauses let you add WeiDU mods by hand after a chosen mod. Chriz Easy
   IWD records them but cannot guarantee them, and an installation with manual mods gets no
-  hotpatches.
+  hotpatches or BuffBot updates.
 - **Radar (optional).** The BG Radar Overlay shows nearby enemies with their resistances and
   buffs. **Start with Radar** is off at first; Windows may ask you to approve it, and you can
   always play without it.
@@ -107,9 +113,6 @@ This describes the recommended setup. Optional choices are listed separately bel
 
 - This is an early release: not every combination of optional choices has been playtested.
 - Only the English Steam version of IWD:EE 2.7.3.0 has been tested.
-- Chriz Easy IWD does not update itself yet. New versions, and the hotpatches they bring, are a
-  new download from Releases. Installing a newer version does not change existing
-  installations; a hotpatch is applied only when you choose it.
 - The installer is not code-signed, so Windows may warn about an unknown publisher. Download it
   only from the official page or this repository, and compare the published SHA-256 checksum.
 - Mods are installed as their authors released them. Please report problems with your Chriz
