@@ -5,7 +5,7 @@ Icewind Dale: Enhanced Edition setup, the one played on stream. Player guide:
 [bg.chrizfader.org/iwd](https://bg.chrizfader.org/iwd).
 
 Chriz Easy IWD copies your own clean Icewind Dale: Enhanced Edition into a new folder and
-installs the recommended mods there: 28 mods with 125 components, each downloaded from its
+installs the recommended mods there: 28 mods with 137 components, each downloaded from its
 official source and checked against the exact tested version. Your original game stays
 unchanged. Installer packages and their SHA-256 checksums are published under
 [Releases](https://github.com/Chrizhermann/chriz-easy-iwd/releases).
@@ -38,8 +38,11 @@ This describes the recommended setup. Optional choices are listed separately bel
   Enemies drink potions, elementals and summoning are revised, and 9 arcane and 6 divine spells
   are added. Chriz IWD Encounters makes sure the IWD:EE casters SCS would otherwise miss fight as
   intended, and enemy priests prepare when they first see your party (Core Rules difficulty and
-  up). All creatures have maximum hit points, and spells from high-level casters are harder to
-  save against.
+  up). It also gives twelve boss fights new tactics: the orog raid on Kuldahar, Yxunomei, Joril,
+  Maiden Ilmadia, the Idol, Poquelin in the Ascension Cave, Cryshal-Tirith, Belhifet, Mebdinga,
+  Icasaracht, Lord Maluradek and the Luremaster are harder through behaviour and tactics, with
+  more hit points where it fits. All creatures have maximum hit points, and spells from
+  high-level casters are harder to save against.
 - **17 companions** by The Artisan, Arvendor and Lava, with banter between them from the
   Icewind Dale Crossmod Banter Pack (at most one every 30 minutes). Companions react more
   often, answer your main character instead of whoever talks to them, and may grumble about
@@ -91,7 +94,8 @@ This describes the recommended setup. Optional choices are listed separately bel
 - **Hotpatches.** Fight updates from Chriz IWD Encounters can be applied to an existing
   installation from **Updates → Hotpatch**, so you can keep your current run. Each hotpatch has
   a short changelog that says what it changes and what reaches a game already in progress.
-  Hotpatches are offered only to installations that stay close to the recommended setup.
+  Hotpatches are offered only to installations that stay close to the recommended setup; mods
+  and files you add after installing, such as voice packs, do not count against that.
 - **Manual mods (advanced).** Pauses let you add WeiDU mods by hand after a chosen mod. Chriz Easy
   IWD records them but cannot guarantee them, and an installation with manual mods gets no
   hotpatches.
@@ -153,7 +157,7 @@ redistribute mods.
 | Icewind Dale Crossmod Banter Pack | The Artisan, Arvendor, Kulyok, Lava | 5 | yes |
 | The Tweaks Anthology | Gibberlings3 (CamDawg et al.) | 18 + fixes (7649ced) | yes |
 | Sword Coast Stratagems | DavidW | 35.21 | yes |
-| Chriz IWD Encounters | ChrizFader | 0.1.0 | yes |
+| Chriz IWD Encounters | ChrizFader | 0.2.0 | yes |
 | Hidden Gameplay Options | argent77 | 5.2 | yes |
 | BuffBot | ChrizFader | 1.12.6 | yes |
 | Lefreut's Enhanced UI for IWD:EE | lefreut; IWD:EE port by r-e-d | 2.0 | optional |
