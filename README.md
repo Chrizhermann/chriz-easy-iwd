@@ -5,7 +5,7 @@ Icewind Dale: Enhanced Edition setup, the one played on stream. Player guide:
 [bg.chrizfader.org/iwd](https://bg.chrizfader.org/iwd).
 
 Chriz Easy IWD copies your own clean Icewind Dale: Enhanced Edition into a new folder and
-installs the recommended mods there: 28 mods with 137 components, each downloaded from its
+installs the recommended mods there: 29 mods with 139 components, each downloaded from its
 official source and checked against the exact tested version. Your original game stays
 unchanged. Installer packages and their SHA-256 checksums are published under
 [Releases](https://github.com/Chrizhermann/chriz-easy-iwd/releases).
@@ -43,10 +43,13 @@ This describes the recommended setup. Optional choices are listed separately bel
   Icasaracht, Lord Maluradek and the Luremaster are harder through behaviour and tactics, with
   more hit points where it fits. All creatures have maximum hit points, and spells from
   high-level casters are harder to save against.
-- **17 companions** by The Artisan, Arvendor and Lava, with banter between them from the
+- **18 companions** by The Artisan, Arvendor and Lava, with banter between them from the
   Icewind Dale Crossmod Banter Pack (at most one every 30 minutes). Companions react more
   often, answer your main character instead of whoever talks to them, and may grumble about
-  reputation but never leave over it.
+  reputation but never leave over it. Banter starts only between living party members in the
+  same area, preventing a crash when the pack picks a dead partner. Arszyk's Wonderful Decay
+  adds a vampire fighter/druid and a late-game quest that also works without him. His mod is
+  a beta and is included only in new installations.
 - **Restored content.** Unfinished Business adds real shadows in the Vale of Shadows and the
   Wardstone for Lower Dorn's Deep.
 - **Characters.** Maximum hit points at level 1 and on every level-up; un-nerfed spell
@@ -91,7 +94,7 @@ This describes the recommended setup. Optional choices are listed separately bel
 - **Exact versions.** Mods are not bundled: the app downloads each one from its official source
   and checks it against the tested version before installing it.
 - **Pause and resume.** An interrupted installation can be continued from **My installs**.
-- **Hotpatches.** Fight updates from Chriz IWD Encounters can be applied to an existing
+- **Hotpatches.** Fight updates and the banter crash fix from Chriz IWD Encounters can be applied to an existing
   installation from **Updates → Hotpatch**, so you can keep your current run. Each hotpatch has
   a short changelog that says what it changes and what reaches a game already in progress.
   Hotpatches are offered only to installations that stay close to the recommended setup; mods
@@ -113,7 +116,7 @@ This describes the recommended setup. Optional choices are listed separately bel
 
 - This is an early release: not every combination of optional choices has been playtested.
 - Only the English Steam version of IWD:EE 2.7.3.0 has been tested.
-- The installer is not code-signed, so Windows may warn about an unknown publisher. Download it
+- The setup has a verified updater signature but no Windows publisher signature, so Windows may warn about an unknown publisher. Download it
   only from the official page or this repository, and compare the published SHA-256 checksum.
 - Mods are installed as their authors released them. Please report problems with your Chriz
   Easy IWD version and its logs; check the logs for personal paths or other information you do
@@ -157,10 +160,11 @@ redistribute mods.
 | T'viy | Lava | 2.4 | yes |
 | Urchin | Lava | 2.5 | yes |
 | Vito | Lava | 1.1 | yes |
+| Arszyk's Wonderful Decay | Lava | BETA1.4 | yes |
 | Icewind Dale Crossmod Banter Pack | The Artisan, Arvendor, Kulyok, Lava | 5 | yes |
 | The Tweaks Anthology | Gibberlings3 (CamDawg et al.) | 18 + fixes (7649ced) | yes |
 | Sword Coast Stratagems | DavidW | 35.21 | yes |
-| Chriz IWD Encounters | ChrizFader | 0.2.0 | yes |
+| Chriz IWD Encounters | ChrizFader | 0.2.1 | yes |
 | Hidden Gameplay Options | argent77 | 5.2 | yes |
 | BuffBot | ChrizFader | 1.12.6 | yes |
 | Lefreut's Enhanced UI for IWD:EE | lefreut; IWD:EE port by r-e-d | 2.0 | optional |
@@ -176,3 +180,4 @@ redistribute mods.
 | EEex Remote Console | ChrizFader | 0.2.1 | optional |
 
 The BG Radar Overlay is by tapahob. Fonts and other third-party notices ship with the app.
+
