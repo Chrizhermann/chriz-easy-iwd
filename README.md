@@ -13,8 +13,9 @@ unchanged. Installer packages and their SHA-256 checksums are published under
 ## What you need
 
 - Windows 10 or 11, 64-bit, and an internet connection during installation.
-- A clean, unmodded Icewind Dale: Enhanced Edition 2.7.3.0. Tested with the English Steam
-  version; mods are installed in English.
+- Icewind Dale: Enhanced Edition 2.7.3.0, ideally clean and unmodded. Tested with the English
+  Steam version; other usable Windows copies install as **Less tested**, and a game that looks
+  modded gets one question before anything is copied. Mods are installed in English.
 - About 8 GB of free space: the modded copy takes about 4–5 GB, downloaded mods about 2 GB.
 
 ## Quick install guide
@@ -93,9 +94,14 @@ This describes the recommended setup. Optional choices are listed separately bel
   installation leaves the original and the shared downloads untouched.
 - **Exact versions.** Mods are not bundled: the app downloads each one from its official source
   and checks it against the tested version before installing it.
+- **Questions instead of stops.** When a mod's download has changed since it was tested, or
+  cannot be used, the app asks: install the newer file, leave the mod out together with the
+  mods that need it, or stop. When a mod's installer fails, it asks whether to leave out what
+  did not install and continue, try again where that is safe, or stop.
 - **Pause and resume.** An interrupted installation can be continued from **My installs**.
-- **Hotpatches.** Fight updates and the banter crash fix from Chriz IWD Encounters can be applied to an existing
-  installation from **Updates → Hotpatch**, so you can keep your current run. Each hotpatch has
+- **Hotpatches.** Fight updates and the banter crash fix from Chriz IWD Encounters can be
+  applied to an existing installation from **Updates → Hotpatch**, so you can keep your
+  current run. Each hotpatch has
   a short changelog that says what it changes and what reaches a game already in progress.
   Hotpatches are offered only to installations that stay close to the recommended setup; mods
   and files you add after installing, such as voice packs, do not count against that.
@@ -115,9 +121,11 @@ This describes the recommended setup. Optional choices are listed separately bel
 ## Known limitations
 
 - This is an early release: not every combination of optional choices has been playtested.
-- Only the English Steam version of IWD:EE 2.7.3.0 has been tested.
-- The setup has a verified updater signature but no Windows publisher signature, so Windows may warn about an unknown publisher. Download it
-  only from the official page or this repository, and compare the published SHA-256 checksum.
+- Only the English Steam version of IWD:EE 2.7.3.0 has been tested; other copies install as
+  **Less tested**.
+- The setup has a verified updater signature but no Windows publisher signature, so Windows may
+  warn about an unknown publisher. Download it only from the official page or this repository,
+  and compare the published SHA-256 checksum.
 - Mods are installed as their authors released them. Please report problems with your Chriz
   Easy IWD version and its logs; check the logs for personal paths or other information you do
   not want to share first.
@@ -164,9 +172,9 @@ redistribute mods.
 | Icewind Dale Crossmod Banter Pack | The Artisan, Arvendor, Kulyok, Lava | 5 | yes |
 | The Tweaks Anthology | Gibberlings3 (CamDawg et al.) | 18 + fixes (7649ced) | yes |
 | Sword Coast Stratagems | DavidW | 35.21 | yes |
-| Chriz IWD Encounters | ChrizFader | 0.2.1 | yes |
+| Chriz IWD Encounters | ChrizFader | 0.2.2 | yes |
 | Hidden Gameplay Options | argent77 | 5.2 | yes |
-| BuffBot | ChrizFader | 1.12.6 | yes |
+| BuffBot | ChrizFader | 1.16.1 | yes |
 | Lefreut's Enhanced UI for IWD:EE | lefreut; IWD:EE port by r-e-d | 2.0 | optional |
 | Infinity UI++ | Pecca | 1.31 | optional |
 | Will of the Wisps | Lava | 3.6 | optional |
