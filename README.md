@@ -5,7 +5,7 @@ Icewind Dale: Enhanced Edition setup, the one played on stream. Player guide:
 [bg.chrizfader.org/iwd](https://bg.chrizfader.org/iwd).
 
 Chriz Easy IWD copies your own clean Icewind Dale: Enhanced Edition into a new folder and
-installs the recommended mods there: 29 mods with 139 components, each downloaded from its
+installs the recommended mods there: 30 mods with 140 components, each downloaded from its
 official source and checked against the exact tested version. Your original game stays
 unchanged. Installer packages and their SHA-256 checksums are published under
 [Releases](https://github.com/Chrizhermann/chriz-easy-iwd/releases).
@@ -57,7 +57,8 @@ This describes the recommended setup. Optional choices are listed separately bel
   progression for mages, sorcerers, bards and clerics; true grandmastery; kits without racial
   restrictions; mages may use bucklers and thieves small shields; dual- and multi-class thieves
   backstab with more weapons; armor plus one protection item; scrolls cast at the reader's
-  level; no experience cap. Thieves assign skill points in steps of five; shapeshifting is
+  level; no experience cap. Thieves use their thieving skills and stealth in any armor
+  (Klatu Tweaks and Fixes) and assign skill points in steps of five; shapeshifting is
   improved; spell sequencers and contingencies become innate abilities. Druids keep their own
   experience table and use 3rd edition alignment rules.
 - **Spells and magic items.** All of SCS's spell changes, including Baldur's Gate-style Insect
@@ -175,6 +176,7 @@ redistribute mods.
 | Sword Coast Stratagems | DavidW | 35.21 | yes |
 | Chriz IWD Encounters | ChrizFader | 0.2.2 | yes |
 | Hidden Gameplay Options | argent77 | 5.2 | yes |
+| Klatu Tweaks and Fixes | Klatu (The Gate Project) | 1.7.4 | yes |
 | BuffBot | ChrizFader | 1.16.1 | yes |
 | Lefreut's Enhanced UI for IWD:EE | lefreut; IWD:EE port by r-e-d | 2.0 | optional |
 | Infinity UI++ | Pecca | 1.31 | optional |
