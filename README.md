@@ -94,10 +94,11 @@ This describes the recommended setup. Optional choices are listed separately bel
   installation leaves the original and the shared downloads untouched.
 - **Exact versions.** Mods are not bundled: the app downloads each one from its official source
   and checks it against the tested version before installing it.
-- **Questions instead of stops.** When a mod's download has changed since it was tested, or
-  cannot be used, the app asks: install the newer file, leave the mod out together with the
-  mods that need it, or stop. When a mod's installer fails, it asks whether to leave out what
-  did not install and continue, try again where that is safe, or stop.
+- **Fewer stops.** When a mod's download has changed since it was tested, the app installs
+  the newer file; when a download cannot be used, it leaves that mod out together with the
+  mods that need it. The end of the installation names both. When a mod's installer fails,
+  it asks whether to leave out what did not install and continue, try again where that is
+  safe, or stop.
 - **Pause and resume.** An interrupted installation can be continued from **My installs**.
 - **Hotpatches.** Fight updates and the banter crash fix from Chriz IWD Encounters can be
   applied to an existing installation from **Updates → Hotpatch**, so you can keep your
