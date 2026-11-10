@@ -1,0 +1,6 @@
+# Source: docs/releases/issue-templates/config.yml in Chrizhermann/chriz-bg-collection.
+blank_issues_enabled: true
+contact_links:
+  - name: ChrizFader's Discord
+    url: https://discord.gg/RtXjRzy68k
+    about: Ask a question or report a problem in chat.
