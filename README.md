@@ -91,8 +91,9 @@ This describes the recommended setup. Optional choices are listed separately bel
 
 ## The app
 
-- **A separate copy.** Chriz Easy IWD never changes your original game. Removing an
-  installation leaves the original and the shared downloads untouched.
+- **A separate copy.** Chriz Easy IWD never changes your original game, and installs onto
+  NTFS, exFAT and FAT32 drives alike. Removing an installation leaves the original and the
+  shared downloads untouched.
 - **Exact versions.** Mods are not bundled: the app downloads each one from its official source
   and checks it against the tested version before installing it.
 - **Fewer stops.** When a mod's download has changed since it was tested, the app installs
@@ -137,7 +138,9 @@ This describes the recommended setup. Optional choices are listed separately bel
 - Player guide, troubleshooting and download: [bg.chrizfader.org/iwd](https://bg.chrizfader.org/iwd)
 - Questions and bug reports: [ChrizFader's Discord](https://discord.gg/RtXjRzy68k) or the
   [issues](https://github.com/Chrizhermann/chriz-easy-iwd/issues) of this repository. In the
-  app, **Export diagnostics** collects the logs of a failed installation.
+  app, **Feedback** and **Report a problem** prepare a clean report for GitHub or Discord, and
+  **Export diagnostics** collects the logs of an installation (with Windows user and PC names
+  redacted).
 - Source code: [chriz-bg-collection](https://github.com/Chrizhermann/chriz-bg-collection), the
   same source as Chriz Easy BG.
 
