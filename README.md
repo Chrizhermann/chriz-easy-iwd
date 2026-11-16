@@ -5,7 +5,7 @@ Icewind Dale: Enhanced Edition setup, the one played on stream. Player guide:
 [bg.chrizfader.org/iwd](https://bg.chrizfader.org/iwd).
 
 Chriz Easy IWD copies your own clean Icewind Dale: Enhanced Edition into a new folder and
-installs the recommended mods there: 30 mods with 140 components, each downloaded from its
+installs the recommended mods there: 31 mods with 141 components, each downloaded from its
 official source and checked against the exact tested version. Your original game stays
 unchanged. Installer packages and their SHA-256 checksums are published under
 [Releases](https://github.com/Chrizhermann/chriz-easy-iwd/releases).
@@ -65,7 +65,8 @@ This describes the recommended setup. Optional choices are listed separately bel
   Plague and Creeping Doom and Mordenkainen's Sword in both versions. Wizard scrolls are easier to
   find; potions need identifying, and shopkeepers identify only some items.
 - **Quality of life.** Bubb's Spell Menu Extended for quick spell and ability selection. BuffBot
-  (F11) casts the buffs you choose for your party. EEex adds hold-Left-Shift spell overviews on
+  (F11) casts the buffs you choose for your party, and Chriz Overhead Text keeps spoken overhead
+  lines visible above Tab / Reveal Details nameplates and overhead HP labels. EEex adds hold-Left-Shift spell overviews on
   creatures, grey empty containers, cooldown and contingency timers and UI scaling. Bags of
   Holding are bottomless; ammo, gems, jewelry, potions and scrolls stack without limit; stores
   sell bigger stacks. A rotating autosave every 15 minutes, save names with your character's
@@ -181,6 +182,7 @@ redistribute mods.
 | Hidden Gameplay Options | argent77 | 5.2 | yes |
 | Klatu Tweaks and Fixes | Klatu (The Gate Project) | 1.7.4 | yes |
 | BuffBot | ChrizFader | 1.16.1 | yes |
+| Chriz Overhead Text | ChrizFader | 0.1.0 | yes |
 | Lefreut's Enhanced UI for IWD:EE | lefreut; IWD:EE port by r-e-d | 2.0 | optional |
 | Infinity UI++ | Pecca | 1.31 | optional |
 | Will of the Wisps | Lava | 3.6 | optional |
