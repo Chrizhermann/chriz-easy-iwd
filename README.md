@@ -45,7 +45,7 @@ This describes the recommended setup. Optional choices are listed separately bel
   tactics: the orog raid on Kuldahar, Yxunomei, Joril,
   Maiden Ilmadia, the Idol, Poquelin in the Ascension Cave, Cryshal-Tirith, Belhifet, Mebdinga,
   Icasaracht, Lord Maluradek and the Luremaster are harder through behaviour and tactics, with
-  more hit points where it fits. All creatures have maximum hit points, and spells from
+  more hit points where it fits (with Belhifet keeping his original appearance). All creatures have maximum hit points, and spells from
   high-level casters are harder to save against.
 - **18 companions** by The Artisan, Arvendor and Lava, with banter between them from the
   Icewind Dale Crossmod Banter Pack (at most one every 30 minutes). Companions react more
@@ -193,7 +193,7 @@ redistribute mods.
 | Icewind Dale Crossmod Banter Pack | The Artisan, Arvendor, Kulyok, Lava | 5 | yes |
 | The Tweaks Anthology | Gibberlings3 (CamDawg et al.) | 18 + fixes (7649ced) | yes |
 | Sword Coast Stratagems | DavidW | 35.21 | yes |
-| Chriz IWD Encounters | ChrizFader | 0.3.0 | yes |
+| Chriz IWD Encounters | ChrizFader | 0.3.1 | yes |
 | Hidden Gameplay Options | argent77 | 5.2 | yes |
 | Klatu Tweaks and Fixes | Klatu (The Gate Project) | 1.7.4 | yes |
 | BuffBot | ChrizFader | 1.16.2 | yes |
