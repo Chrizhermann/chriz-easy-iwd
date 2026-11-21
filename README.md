@@ -5,7 +5,7 @@ Icewind Dale: Enhanced Edition setup, the one played on stream. Player guide:
 [bg.chrizfader.org/iwd](https://bg.chrizfader.org/iwd).
 
 Chriz Easy IWD copies your own clean Icewind Dale: Enhanced Edition into a new folder and
-installs the recommended mods there: 33 mods with 143 components, each downloaded from its
+installs the recommended mods there: 33 mods with 145 components, each downloaded from its
 official source and checked against the exact tested version. Your original game stays
 unchanged. Installer packages and their SHA-256 checksums are published under
 [Releases](https://github.com/Chrizhermann/chriz-easy-iwd/releases).
@@ -39,7 +39,10 @@ This describes the recommended setup. Optional choices are listed separately bel
   Enemies drink potions, elementals and summoning are revised, and 9 arcane and 6 divine spells
   are added. Chriz IWD Encounters makes sure the IWD:EE casters SCS would otherwise miss fight as
   intended, and enemy priests prepare when they first see your party (Core Rules difficulty and
-  up). It also gives twelve boss fights new tactics: the orog raid on Kuldahar, Yxunomei, Joril,
+  up). Its Chapter 2–6 campaign overhaul trims repetitive filler groups, splits Kresselack's
+  crypt into paced waves, repairs Terikan/Tarnsen/Ginafae scripts, upgrades Severed Hand/Giant/Wyrm
+  fights, and adds five Drasus/Iron-Throne-style squads. It also gives twelve boss fights new
+  tactics: the orog raid on Kuldahar, Yxunomei, Joril,
   Maiden Ilmadia, the Idol, Poquelin in the Ascension Cave, Cryshal-Tirith, Belhifet, Mebdinga,
   Icasaracht, Lord Maluradek and the Luremaster are harder through behaviour and tactics, with
   more hit points where it fits. All creatures have maximum hit points, and spells from
@@ -69,8 +72,11 @@ This describes the recommended setup. Optional choices are listed separately bel
   improved; spell sequencers and contingencies become innate abilities. Druids keep their own
   experience table and use 3rd edition alignment rules.
 - **Spells and magic items.** All of SCS's spell changes, including Baldur's Gate-style Insect
-  Plague and Creeping Doom and Mordenkainen's Sword in both versions. Wizard scrolls are easier to
-  find; potions need identifying, and shopkeepers identify only some items.
+  Plague and Creeping Doom and Mordenkainen's Sword in both versions. Chriz IWD Encounters adds
+  Baldur's Gate caster-level Dispel/Remove Magic, L1–4 Minor Spell Deflection (Breach and Pierce
+  bypass), non-stacking Mirror Image / Reflected Image / Spirit Armor, AoE Mirror Image bypass,
+  logical Web/Grease/Stinking Cloud/Spook/Horror immunities, and Universal utility spells. Wizard
+  scrolls are easier to find; potions need identifying, and shopkeepers identify only some items.
 - **Quality of life.** Bubb's Spell Menu Extended for quick spell and ability selection. BuffBot
   (F11) casts the buffs you choose for your party, and Chriz Overhead Text keeps spoken overhead
   lines visible above Tab / Reveal Details nameplates and overhead HP labels. EEex adds hold-Left-Shift spell overviews on
@@ -91,6 +97,8 @@ This describes the recommended setup. Optional choices are listed separately bel
 - **Quests by Lava:** Below & Below Inn, Night of the Blinking Dead, Snowytoes Hamlet, Tale of
   Our Lady Dreamless, Terror of the Skineater, The Rediscovery of Kuldahar, The War of Bloom and
   Rot, and Will of the Wisps (new shaman kits and items, optional new enemies).
+- **Expansion overhaul** from Chriz IWD Encounters (Heart of Winter & Trials of the Luremaster):
+  curated encounters, thinned hordes, and `AR9602` repair while keeping full SCS caster spellbooks.
 - **Marketh's Ring** from Unfinished Business. It is off because Marketh can vanish together
   with his signet, so the quest cannot be finished.
 - **More choices** from the Tweaks Anthology, SCS, the Crossmod Banter Pack and Hidden Gameplay
@@ -185,7 +193,7 @@ redistribute mods.
 | Icewind Dale Crossmod Banter Pack | The Artisan, Arvendor, Kulyok, Lava | 5 | yes |
 | The Tweaks Anthology | Gibberlings3 (CamDawg et al.) | 18 + fixes (7649ced) | yes |
 | Sword Coast Stratagems | DavidW | 35.21 | yes |
-| Chriz IWD Encounters | ChrizFader | 0.2.2 | yes |
+| Chriz IWD Encounters | ChrizFader | 0.3.0 | yes |
 | Hidden Gameplay Options | argent77 | 5.2 | yes |
 | Klatu Tweaks and Fixes | Klatu (The Gate Project) | 1.7.4 | yes |
 | BuffBot | ChrizFader | 1.16.2 | yes |
