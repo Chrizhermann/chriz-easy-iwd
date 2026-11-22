@@ -1,169 +1,54 @@
 # Chriz Easy IWD
 
-**Early Windows release. Expect bugs.** A few-click installer for ChrizFader's curated
-Icewind Dale: Enhanced Edition setup, the one played on stream. Player guide:
-[bg.chrizfader.org/iwd](https://bg.chrizfader.org/iwd).
+A one-click Windows installer and launcher for ChrizFader's curated **Icewind Dale: Enhanced Edition** setup (**145 default components across 34 install runs and 33 mods**, with **18 recruitable companions** in app `v0.1.16` / collection `0.1.17`).
 
-Chriz Easy IWD copies your own clean Icewind Dale: Enhanced Edition into a new folder and
-installs the recommended mods there: 33 mods with 145 components, each downloaded from its
-official source and checked against the exact tested version. Your original game stays
-unchanged. Installer packages and their SHA-256 checksums are published under
-[Releases](https://github.com/Chrizhermann/chriz-easy-iwd/releases).
+- **Player Guide & Downloads:** **[bg.chrizfader.org/iwd](https://bg.chrizfader.org/iwd)**
+- **Rules & Balance Changes:** **[bg.chrizfader.org/rules#iwd](https://bg.chrizfader.org/rules#iwd)**
+- **Download Installer:** **[Latest Release](https://github.com/Chrizhermann/chriz-easy-iwd/releases/latest)**
 
-## What you need
+---
 
-- Windows 10 or 11, 64-bit, and an internet connection during installation.
-- Icewind Dale: Enhanced Edition 2.7.3.0, ideally clean and unmodded. Tested with the English
-  Steam version; other usable Windows copies install as **Less tested**, and a game that looks
-  modded gets one question before anything is copied. Mods are installed in English.
-- About 8 GB of free space: the modded copy takes about 4–5 GB, downloaded mods about 2 GB.
+## Part 1: For Players
 
-## Quick install guide
+<p align="center">
+  <img src="docs/images/ceiwd-install.png" alt="Chriz Easy IWD Kuldahar theme install screen" width="85%" />
+</p>
 
-1. Download and open Chriz Easy IWD. Close the game and any save editors first.
-2. Check the detected game folder, or use **Change source**. Pick an install name and a new,
-   empty install location, separate from your game, your Steam library and the download cache.
-3. Keep the recommended setup, or choose **Customize** to pick an interface, add quests and
-   review optional components. Manual-mod pauses are for experienced modders only.
-4. Choose **Install Chriz Easy IWD** and keep the computer awake. Need a break? Choose
-   **Pause after current mod**; continue later from **My installs**.
-5. When it is done, choose **Play Chriz Easy IWD**. The modded copy has its own game profile,
-   so its saves stay apart from your original game's.
+Chriz Easy IWD copies your own clean **Icewind Dale: Enhanced Edition** into a new folder and downloads, verifies, and installs every selected mod from its official source in tested order. Your original game and saves remain untouched.
 
-## What's different from vanilla
+### What You Need
 
-This describes the recommended setup. Optional choices are listed separately below.
+- **64-bit Windows 10 or 11** and an internet connection during installation.
+- **Icewind Dale: Enhanced Edition 2.7.3.0**, ideally clean and unmodded. Tested with the English Steam version; other usable Windows copies install as **Less tested**, and a game that looks modded asks once before anything is copied. Mods install in English.
+- **About 8–9 GB of free space** (the modded copy takes ~4–5 GB, downloaded mods ~2 GB, ~9 GB preflight estimate) on **NTFS, exFAT, or FAT32** drives.
 
-- **Smarter fights.** Sword Coast Stratagems gives enemies better tactics: general AI and calls
-  for help, mages, priests, dragons, beholders, fiends and celestials, and revised IWD undead.
-  Enemies drink potions, elementals and summoning are revised, and 9 arcane and 6 divine spells
-  are added. Chriz IWD Encounters makes sure the IWD:EE casters SCS would otherwise miss fight as
-  intended, and enemy priests prepare when they first see your party (Core Rules difficulty and
-  up). Its Chapter 2–6 campaign overhaul trims repetitive filler groups, splits Kresselack's
-  crypt into paced waves, repairs Terikan/Tarnsen/Ginafae scripts, upgrades Severed Hand/Giant/Wyrm
-  fights, and adds five Drasus/Iron-Throne-style squads. It also gives twelve boss fights new
-  tactics: the orog raid on Kuldahar, Yxunomei, Joril,
-  Maiden Ilmadia, the Idol, Poquelin in the Ascension Cave, Cryshal-Tirith, Belhifet, Mebdinga,
-  Icasaracht, Lord Maluradek and the Luremaster are harder through behaviour and tactics, with
-  more hit points where it fits (with Belhifet keeping his original appearance). All creatures have maximum hit points, and spells from
-  high-level casters are harder to save against.
-- **18 companions** by The Artisan, Arvendor and Lava, with banter between them from the
-  Icewind Dale Crossmod Banter Pack (at most one every 30 minutes). Companions react more
-  often, answer your main character instead of whoever talks to them, and may grumble about
-  reputation but never leave over it. Banter starts only between living party members in the
-  same area, preventing a crash when the pack picks a dead partner. Arszyk's Wonderful Decay
-  adds a vampire fighter/druid and a late-game quest that also works without him. His mod is
-  a beta and is included only in new installations.
-- **Chriz IWD Party Dialog.** World and quest conversations check living party members
-  in the current area for class, kit and race requirements. A qualifying party member
-  becomes the speaker, and dialogue tokens use that character's details. Personal
-  companion conversations still address your main character.
-- **Round Clock** from BG Rebalance. Travel, rest and scripted time jumps count toward
-  personal round and stealth waits and the next contingency check. You can use Stealth
-  while paused when Hide in Shadows is ready.
-- **Restored content.** Unfinished Business adds real shadows in the Vale of Shadows and the
-  Wardstone for Lower Dorn's Deep.
-- **Characters.** Maximum hit points at level 1 and on every level-up; un-nerfed spell
-  progression for mages, sorcerers, bards and clerics; true grandmastery; kits without racial
-  restrictions; mages may use bucklers and thieves small shields; dual- and multi-class thieves
-  backstab with more weapons; armor plus one protection item; scrolls cast at the reader's
-  level; no experience cap. Thieves use their thieving skills and stealth in any armor
-  (Klatu Tweaks and Fixes) and assign skill points in steps of five; shapeshifting is
-  improved; spell sequencers and contingencies become innate abilities. Druids keep their own
-  experience table and use 3rd edition alignment rules.
-- **Spells and magic items.** All of SCS's spell changes, including Baldur's Gate-style Insect
-  Plague and Creeping Doom and Mordenkainen's Sword in both versions. Chriz IWD Encounters adds
-  Baldur's Gate caster-level Dispel/Remove Magic, L1–4 Minor Spell Deflection (Breach and Pierce
-  bypass), non-stacking Mirror Image / Reflected Image / Spirit Armor, AoE Mirror Image bypass,
-  logical Web/Grease/Stinking Cloud/Spook/Horror immunities, and Universal utility spells. Wizard
-  scrolls are easier to find; potions need identifying, and shopkeepers identify only some items.
-- **Quality of life.** Bubb's Spell Menu Extended for quick spell and ability selection. BuffBot
-  (F11) casts the buffs you choose for your party, and Chriz Overhead Text keeps spoken overhead
-  lines visible above Tab / Reveal Details nameplates and overhead HP labels. EEex adds hold-Left-Shift spell overviews on
-  creatures, grey empty containers, cooldown and contingency timers and UI scaling. Bags of
-  Holding are bottomless; ammo, gems, jewelry, potions and scrolls stack without limit; stores
-  sell bigger stacks. A rotating autosave every 15 minutes, save names with your character's
-  name, party AI off in new games, summons that clear the fog of war, and dialogue that always
-  pauses the game. Hidden Gameplay Options adds about two dozen hidden engine settings to the
-  in-game options, such as area-of-effect range, enhanced path search, frame rate and
-  learnable-spell markers.
-- **Looks.** The Icewind Dale Graphical Overhaul's higher-quality area art, improved and unique
-  item icons, weapon animation tweaks and separate fire and cold resistance icons.
+### Quick Install Guide
 
-### Optional, in Customize
+1. **Download and open Chriz Easy IWD** from [bg.chrizfader.org/iwd](https://bg.chrizfader.org/iwd) or [Latest Release](https://github.com/Chrizhermann/chriz-easy-iwd/releases/latest). Close the game and any save editors first.
+2. **Confirm source & destination:** Check the detected game folder (or use **Change source**), pick an **Install name**, and choose a new, empty **Install location** separate from your game, Steam library, and download cache.
+3. **Recommended or Customize:** Keep the recommended setup, or choose **Customize** to pick an interface, add quests, or review optional components (manual-mod pauses are for experienced modders).
+4. **Click Install Chriz Easy IWD:** Keep the computer awake. Need a break? Choose **Pause after current mod** and resume later from **My installs**.
+5. **Click Play Chriz Easy IWD:** The modded copy uses its own isolated profile in Documents so its saves stay separate from your original game.
 
-- **Interface:** Lefreut's Enhanced UI for IWD:EE or Infinity UI++, or the game's own. Next to
-  either, a few Hidden Gameplay Options they do not support are left out automatically.
-- **Quests by Lava:** Below & Below Inn, Night of the Blinking Dead, Snowytoes Hamlet, Tale of
-  Our Lady Dreamless, Terror of the Skineater, The Rediscovery of Kuldahar, The War of Bloom and
-  Rot, and Will of the Wisps (new shaman kits and items, optional new enemies).
-- **Expansion overhaul** from Chriz IWD Encounters (Heart of Winter & Trials of the Luremaster):
-  curated encounters, thinned hordes, and `AR9602` repair while keeping full SCS caster spellbooks.
-- **Marketh's Ring** from Unfinished Business. It is off because Marketh can vanish together
-  with his signet, so the quest cannot be finished.
-- **More choices** from the Tweaks Anthology, SCS, the Crossmod Banter Pack and Hidden Gameplay
-  Options. Alternatives are exclusive: picking one replaces the other.
-- **EEex Remote Console**, a developer tool.
+### Gameplay Highlights & App Features
 
-## The app
+- **Smarter fights & campaign overhaul:** **Sword Coast Stratagems** improves enemy tactics, potion use, elementals, and spells (adding 9 arcane and 6 divine spells). **Chriz IWD Encounters** (`v0.3.1`) fixes missed casters, prepares priests on sight (Core+), overhauls Chapters 2–6 (trimmed filler, paced Kresselack waves, repaired Terikan/Tarnsen/Ginafae scripts, Severed Hand/Giant/Wyrm upgrades, five elite squads), and upgrades twelve bosses (from the Kuldahar orog raid to **Belhifet**, keeping his original `BELHIFET` appearance). All creatures have maximum HP, and spells from high-level casters are harder to save against.
+- **18 companions & party dialogue:** NPCs by The Artisan, Arvendor, and Lava with **Crossmod Banter Pack** (crash-guarded to living partners in the same area; Arszyk's Wonderful Decay is a beta for new installs). **Chriz IWD Party Dialog** lets living party members in the area speak for class, kit, and race checks in world/quest dialogue.
+- **Characters, spells & Round Clock:** **Round Clock** tracks travel, rest, and time jumps toward cooldowns and Contingency checks and enables Stealth clicks while paused. Un-nerfed progressions, max HP per level, true grandmastery, open kit races, dual/multi backstabs, Klatu armor thieving, reader-level scrolls, no XP cap, innate sequencers, BG-style Insect Plague/Dispel/Minor Spell Deflection rules, wider wizard scroll availability, and unidentified potions.
+- **Quality of life & visuals:** **Bubb's Spell Menu Extended**, **BuffBot** (`F11`), **Chriz Overhead Text** (keeps spoken lines stacked above Tab nameplates and HP Over Head), **EEex** (Left-Shift spell overview, grey empty containers, cooldown timers, UI scaling), **Icewind Dale Graphical Overhaul**, **Hidden Gameplay Options**, bottomless bags/unlimited stacks, 15-minute rotating autosaves, and dialogue pause.
+- **Optional in Customize:** **Lefreut's Enhanced UI** or **Infinity UI++**; 8 **Lava** quest mods (incl. *Will of the Wisps*); **Heart of Winter & Trials of the Luremaster** expansion overhaul (`500`); **Marketh's Ring** (off by default due to a quest vanish risk); extra Tweaks/SCS/Banter/HGO picks; and **EEex Remote Console**.
+- **Built-in updater & safe recovery:** Separate copy on NTFS/exFAT/FAT32; exact SHA-256 verification and guided prompts on changed downloads or failed steps; **Pause & resume** via **My installs**; **Updates → Hotpatch** (save-compatible campaign fixes & banter guard), **Updates → BuffBot** (with backup and **Undo**), **Update Chriz Easy IWD app**, optional **Manual mods**, and optional **BG Radar Overlay**.
 
-- **A separate copy.** Chriz Easy IWD never changes your original game, and installs onto
-  NTFS, exFAT and FAT32 drives alike. Removing an installation leaves the original and the
-  shared downloads untouched.
-- **Exact versions.** Mods are not bundled: the app downloads each one from its official source
-  and checks it against the tested version before installing it.
-- **Fewer stops.** When a mod's download has changed since it was tested, the app installs
-  the newer file; when a download cannot be used, it leaves that mod out together with the
-  mods that need it. The end of the installation names both. When a mod's installer fails,
-  it asks whether to leave out what did not install and continue, try again where that is
-  safe, or stop.
-- **Pause and resume.** An interrupted installation can be continued from **My installs**.
-- **Hotpatches.** Fight updates and the banter crash fix from Chriz IWD Encounters can be
-  applied to an existing installation from **Updates → Hotpatch**, so you can keep your
-  current run. Each hotpatch has
-  a short changelog that says what it changes and what reaches a game already in progress.
-  Hotpatches are offered only to installations that stay close to the recommended setup; mods
-  and files you add after installing, such as voice packs, do not count against that.
-- **BuffBot updates.** **Updates → BuffBot** brings BuffBot in an existing game to its newest
-  release. Your saves, BuffBot settings, exported presets and the mods you added stay as they
-  are, and **Undo** puts the game files back.
-- **App updates.** From 0.1.7 on, Chriz Easy IWD updates itself: open **Updates** and choose
-  **Update Chriz Easy IWD app**. An app update never changes your installations; a hotpatch
-  is applied only when you choose it.
-- **Manual mods (advanced).** Pauses let you add WeiDU mods by hand after a chosen mod. Chriz Easy
-  IWD records them but cannot guarantee them, and an installation with manual mods gets no
-  hotpatches or BuffBot updates.
-- **Radar (optional).** The BG Radar Overlay shows nearby enemies with their resistances and
-  buffs. **Start with Radar** is off at first; Windows may ask you to approve it, and you can
-  always play without it.
+---
 
-## Known limitations
+## Part 2: Mod List, Limitations, Source & License
 
-- This is an early release: not every combination of optional choices has been playtested.
-- Only the English Steam version of IWD:EE 2.7.3.0 has been tested; other copies install as
-  **Less tested**.
-- The setup has a verified updater signature but no Windows publisher signature, so Windows may
-  warn about an unknown publisher. Download it only from the official page or this repository,
-  and compare the published SHA-256 checksum.
-- Mods are installed as their authors released them. Please report problems with your Chriz
-  Easy IWD version and its logs; check the logs for personal paths or other information you do
-  not want to share first.
+### Mods & Credits
 
-## Help and links
+Mod credit belongs to the original authors. Chriz Easy IWD does not supply the game or redistribute mod archives.
 
-- Player guide, troubleshooting and download: [bg.chrizfader.org/iwd](https://bg.chrizfader.org/iwd)
-- Questions and bug reports: [ChrizFader's Discord](https://discord.gg/RtXjRzy68k) or the
-  [issues](https://github.com/Chrizhermann/chriz-easy-iwd/issues) of this repository. In the
-  app, **Feedback** and **Report a problem** prepare a clean report for GitHub or Discord, and
-  **Export diagnostics** collects the logs of an installation (with Windows user and PC names
-  redacted).
-- Source code: [chriz-bg-collection](https://github.com/Chrizhermann/chriz-bg-collection), the
-  same source as Chriz Easy BG.
-
-## Mods and credits
-
-Mod credit belongs to the original authors. Chriz Easy IWD does not supply the game or
-redistribute mods.
+<details>
+<summary><strong>Full Mod List & Credits (33 recommended + 11 optional mods)</strong></summary>
 
 | Mod | Author | Version | Recommended setup |
 | --- | --- | --- | --- |
@@ -212,5 +97,25 @@ redistribute mods.
 | The War of Bloom and Rot | Lava | 1.3 | optional |
 | EEex Remote Console | ChrizFader | 0.2.1 | optional |
 
+</details>
+
 The BG Radar Overlay is by tapahob. Fonts and other third-party notices ship with the app.
 
+### Known Limitations
+
+- **Early release:** Not every combination of optional choices in **Customize** has been playtested.
+- **Game source:** Only the English Steam version of IWD:EE `2.7.3.0` is tested; other copies install as **Less tested**.
+- **Windows unknown-publisher prompt:** The setup carries a verified Tauri/Minisign updater signature but no Windows Authenticode signature. Download only from **[bg.chrizfader.org/iwd](https://bg.chrizfader.org/iwd)** or this repository's **[Releases](https://github.com/Chrizhermann/chriz-easy-iwd/releases)** and compare the published SHA-256 checksum (`SHA256SUMS`).
+- **Upstream mods:** Mods install as their authors released them.
+
+### Help & Links
+
+- **Player Guide, Troubleshooting & Downloads:** [bg.chrizfader.org/iwd](https://bg.chrizfader.org/iwd) · [Troubleshooting & Backup Guide](https://github.com/Chrizhermann/chriz-bg-collection/blob/main/docs/troubleshooting.md)
+- **Questions & Bug Reports:** [ChrizFader's Discord](https://discord.gg/RtXjRzy68k) or [GitHub Issues](https://github.com/Chrizhermann/chriz-easy-iwd/issues). In the app, **Feedback** and **Report this problem** prepare a clean report, and **Export diagnostics** collects logs (with Windows user and PC names redacted).
+- **Source Code:** [`Chrizhermann/chriz-bg-collection`](https://github.com/Chrizhermann/chriz-bg-collection) (shared with Chriz Easy BG) — see the [Windows build guide](https://github.com/Chrizhermann/chriz-bg-collection/blob/main/docs/BUILDING.md).
+
+### License
+
+The documentation and files in this repository — as well as Chriz Easy IWD's own installer, engine, and recipe tooling in [`chriz-bg-collection`](https://github.com/Chrizhermann/chriz-bg-collection) — are licensed under the **MIT License** (see [LICENSE](LICENSE)).
+
+Third-party mods retain their original authors' rights and licenses and are **not** redistributed. Bundled app dependencies and fonts retain their respective terms; see [`THIRD_PARTY_NOTICES.md`](https://github.com/Chrizhermann/chriz-bg-collection/blob/main/THIRD_PARTY_NOTICES.md).
