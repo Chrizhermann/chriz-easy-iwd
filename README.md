@@ -1,6 +1,6 @@
 # Chriz Easy IWD
 
-A one-click Windows installer and launcher for ChrizFader's curated **Icewind Dale: Enhanced Edition** setup (**145 default components across 34 install runs and 33 mods**, with **18 recruitable companions** in app `v0.1.16` / collection `0.1.17`).
+A one-click Windows installer and launcher for ChrizFader's curated **Icewind Dale: Enhanced Edition** setup (**148 default components across 36 install runs and 35 mods**, with **18 recruitable companions** in app `v0.1.17` / collection `0.1.22`).
 
 - **Player Guide & Downloads:** **[bg.chrizfader.org/iwd](https://bg.chrizfader.org/iwd)**
 - **Rules & Balance Changes:** **[bg.chrizfader.org/rules#iwd](https://bg.chrizfader.org/rules#iwd)**
@@ -32,11 +32,12 @@ Chriz Easy IWD copies your own clean **Icewind Dale: Enhanced Edition** into a n
 
 ### Gameplay Highlights & App Features
 
-- **Smarter fights & campaign overhaul:** **Sword Coast Stratagems** improves enemy tactics, potion use, elementals, and spells (adding 9 arcane and 6 divine spells). **Chriz IWD Encounters** (`v0.3.1`) fixes missed casters, prepares priests on sight (Core+), overhauls Chapters 2–6 (trimmed filler, paced Kresselack waves, repaired Terikan/Tarnsen/Ginafae scripts, Severed Hand/Giant/Wyrm upgrades, five elite squads), and upgrades twelve bosses (from the Kuldahar orog raid to **Belhifet**, keeping his original `BELHIFET` appearance). All creatures have maximum HP, and spells from high-level casters are harder to save against.
+- **Smarter fights & campaign overhaul:** **Sword Coast Stratagems** improves enemy tactics, potion use, elementals, and spells (adding 9 arcane and 6 divine spells). **Chriz IWD Encounters** (`v0.3.4`) fixes missed casters, prepares priests on sight (Core+), overhauls Chapters 2–6 (trimmed filler, stretched Kresselack waves, repaired Terikan/Tarnsen/Ginafae scripts & quest kill counters, Severed Hand/Giant/Wyrm upgrades, six elite squads, six apex encounters, calibrated elite stats & undroppable squad gear, 0% Bombardier Beetles), and upgrades twelve bosses (from the Kuldahar orog raid to **Belhifet**, keeping his original `BELHIFET` appearance). All creatures have maximum HP, and spells from high-level casters are harder to save against.
 - **18 companions & party dialogue:** NPCs by The Artisan, Arvendor, and Lava with **Crossmod Banter Pack** (crash-guarded to living partners in the same area; Arszyk's Wonderful Decay is a beta for new installs). **Chriz IWD Party Dialog** lets living party members in the area speak for class, kit, and race checks in world/quest dialogue.
-- **Characters, spells & Round Clock:** **Round Clock** tracks travel, rest, and time jumps toward cooldowns and Contingency checks and enables Stealth clicks while paused. Un-nerfed progressions, max HP per level, true grandmastery, open kit races, dual/multi backstabs, Klatu armor thieving, reader-level scrolls, no XP cap, innate sequencers, BG-style Insect Plague/Dispel/Minor Spell Deflection rules, wider wizard scroll availability, and unidentified potions.
+- **Characters, spells & Round Clock:** **Round Clock** tracks travel, rest, and time jumps toward cooldowns and Contingency checks and enables Stealth clicks while paused. Un-nerfed progressions, max HP per level, true grandmastery, open kit races, dual/multi backstabs, Klatu armor thieving, reader-level scrolls, no XP cap, innate sequencers, BG-style Insect Plague/Dispel/Minor Spell Deflection rules, wider wizard scroll availability, RAW spell-scroll scribing via **Chriz BG Modpack** (`v0.2.0-alpha.21`, component `470`), and unidentified potions.
 - **Quality of life & visuals:** **Bubb's Spell Menu Extended**, **BuffBot** (`F11`), **Chriz Overhead Text** (keeps spoken lines stacked above Tab nameplates and HP Over Head), **EEex** (Left-Shift spell overview, grey empty containers, cooldown timers, UI scaling), **Icewind Dale Graphical Overhaul**, **Hidden Gameplay Options**, bottomless bags/unlimited stacks, 15-minute rotating autosaves, and dialogue pause.
 - **Optional in Customize:** **Lefreut's Enhanced UI** or **Infinity UI++**; 8 **Lava** quest mods (incl. *Will of the Wisps*); **Heart of Winter & Trials of the Luremaster** expansion overhaul (`500`); **Marketh's Ring** (off by default due to a quest vanish risk); extra Tweaks/SCS/Banter/HGO picks; and **EEex Remote Console**.
+- **Multiplayer & built-in updater:** **Chriz Multiplayer Fix** (`v0.1.0`) stops random lobby-exit crashes and adds a **Copy** button on the Load screen for SP/MP saves.
 - **Built-in updater & safe recovery:** Separate copy on NTFS/exFAT/FAT32; exact SHA-256 verification and guided prompts on changed downloads or failed steps; **Pause & resume** via **My installs**; **Updates → Hotpatch** (save-compatible campaign fixes & banter guard), **Updates → BuffBot** (with backup and **Undo**), **Update Chriz Easy IWD app**, optional **Manual mods**, and optional **BG Radar Overlay**.
 
 ---
@@ -48,7 +49,7 @@ Chriz Easy IWD copies your own clean **Icewind Dale: Enhanced Edition** into a n
 Mod credit belongs to the original authors. Chriz Easy IWD does not supply the game or redistribute mod archives.
 
 <details>
-<summary><strong>Full Mod List & Credits (33 recommended + 11 optional mods)</strong></summary>
+<summary><strong>Full Mod List & Credits (35 recommended + 11 optional mods)</strong></summary>
 
 | Mod | Author | Version | Recommended setup |
 | --- | --- | --- | --- |
@@ -78,7 +79,9 @@ Mod credit belongs to the original authors. Chriz Easy IWD does not supply the g
 | Icewind Dale Crossmod Banter Pack | The Artisan, Arvendor, Kulyok, Lava | 5 | yes |
 | The Tweaks Anthology | Gibberlings3 (CamDawg et al.) | 18 + fixes (7649ced) | yes |
 | Sword Coast Stratagems | DavidW | 35.21 | yes |
-| Chriz IWD Encounters | ChrizFader | 0.3.1 | yes |
+| Chriz IWD Encounters | ChrizFader | 0.3.4 | yes |
+| Chriz Multiplayer Fix | ChrizFader | 0.1.0 | yes |
+| Chriz BG Modpack | ChrizFader | 0.2.0-alpha.21 | yes |
 | Hidden Gameplay Options | argent77 | 5.2 | yes |
 | Klatu Tweaks and Fixes | Klatu (The Gate Project) | 1.7.4 | yes |
 | BuffBot | ChrizFader | 1.16.2 | yes |
